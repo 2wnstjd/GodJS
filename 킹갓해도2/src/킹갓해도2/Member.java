@@ -4,9 +4,9 @@ public class Member {
 	private String name;
 	private int age;
 	private String num;
-	private int memnum;
+	private String memnum;
 //DTOÅ¬·¡½º
-	public Member(String name, int age, String num, int memnum) {
+	public Member(String name, int age, String num, String memnum) {
 		super();
 		this.name = name;
 		this.age = age;
@@ -39,11 +39,11 @@ public class Member {
 		this.num = num;
 	}
 
-	public int getMemnum() {
+	public String getMemnum() {
 		return memnum;
 	}
 
-	public void setMemnum(int memnum) {
+	public void setMemnum(String memnum) {
 		this.memnum = memnum;
 	}
 
